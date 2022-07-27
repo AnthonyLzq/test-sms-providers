@@ -26,3 +26,7 @@ jobs:
 
       - name: Run test
         run: yarn test
+        env:
+          MESSAGE_BIRD_API_KEY: ${{ secrets.MESSAGE_BIRD_API_KEY }}
+          PHONE_RECIPIENT: ${{ secrets.PHONE_RECIPIENT }}
+          NODE_ENV: ci
