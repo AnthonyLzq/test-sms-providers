@@ -8,7 +8,7 @@ const params = {
 }
 
 const sendMessageMB = () => {
-  console.log('Sending message with MessageBird...')
+  console.log('Sending message with MessageBird')
 
   return new Promise<string>((resolve, reject) => {
     messageBird.messages.create(params, (error, res) => {
