@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.1](https://github.com/AnthonyLzq/test-sms-providers/compare/v0.4.0...v0.4.1) (2022-07-27)
+
+
+### Bug Fixes
+
+* envs for click send gha ([1cd29b7](https://github.com/AnthonyLzq/test-sms-providers/commit/1cd29b76ac4bb40bfaaf836b4efdfc84675dfe44))
+
 ## [0.4.0](https://github.com/AnthonyLzq/test-sms-providers/compare/v0.3.0...v0.4.0) (2022-07-27)
 
 

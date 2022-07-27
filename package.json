@@ -1,6 +1,6 @@
 {
   "name": "sms-providers",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "main": "src/index.ts",
   "description": "Testing different providers sms for receiving sms",
   "scripts": {
