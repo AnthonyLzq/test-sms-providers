@@ -10,7 +10,8 @@
     "service": "nodemon",
     "start": "node dist/index.js",
     "release": "standard-version",
-    "test": "jest"
+    "test:ci": "jest --ci -i",
+    "test:local": "NODE_ENV=local jest --ci -i"
   },
   "author": "AnthonyLzq <sluzquinosa@uni.pe>",
   "license": "MIT",
