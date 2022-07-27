@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.4.0](https://github.com/AnthonyLzq/test-sms-providers/compare/v0.3.0...v0.4.0) (2022-07-27)
+
+
+### Features
+
+* feat: implemented click send sms - status: FAILED ([05cc2ac](https://github.com/AnthonyLzq/test-sms-providers/commit/05cc2ac648ea7f68ace1ee56f821a6fd9609672a))
+* updated docs and implemented separated files for testing each site ([7ef83b9](https://github.com/AnthonyLzq/test-sms-providers/commit/7ef83b97dafeb0f0a626e1678c86724c1d92e1c4))
+
 ## [0.3.0](https://github.com/AnthonyLzq/test-sms-providers/compare/v0.2.1...v0.3.0) (2022-07-27)
 
 
