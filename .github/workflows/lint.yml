@@ -1,4 +1,4 @@
-name: Lint - sms-providers
+name: Lint
 
 on: [push]
 
