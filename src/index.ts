@@ -1,3 +1,3 @@
-import { sendMessageMB } from './providers'
+import { sendMessageCS } from './providers'
 
-sendMessageMB()
+sendMessageCS()
