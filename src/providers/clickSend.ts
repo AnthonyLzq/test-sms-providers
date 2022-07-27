@@ -4,7 +4,7 @@ import FormData from 'form-data'
 const BASE_URL = 'https://rest.clicksend.com/v3/sms/send'
 
 const basic = `Basic ${Buffer.from(
-  `${process.env.CLICK_SEND_USER_NAME}:${process.env.CLICK_SEND_PASSWORD}`
+  `${process.env.CLICK_SEND_USER_NAME}:${process.env.CLICK_SEND_API_KEY}`
 ).toString('base64')}`
 
 const body = new FormData()

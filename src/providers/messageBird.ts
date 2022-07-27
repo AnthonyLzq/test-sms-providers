@@ -10,14 +10,15 @@ const params = {
 const sendMessageMB = () => {
   console.log('Sending message with MessageBird')
 
-  return new Promise<string>((resolve, reject) => {
+  return new Promise<string>(resolve => {
     messageBird.messages.create(params, (error, res) => {
       if (error) {
         console.log(
           'There was an error while sending a message with MessageBird'
         )
+        console.log(error)
 
-        return reject(error.message)
+        return resolve('Error')
       }
 
       console.log('Message sent with MessageBird')
