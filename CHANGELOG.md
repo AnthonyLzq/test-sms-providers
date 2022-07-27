@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.3.0](https://github.com/AnthonyLzq/test-sms-providers/compare/v0.2.1...v0.3.0) (2022-07-27)
+
+
+### Features
+
+* updated gha tests env ([fe27d33](https://github.com/AnthonyLzq/test-sms-providers/commit/fe27d332862d86fffd29c24a67ff1ede8adcc5f6))
+
+
+### Bug Fixes
+
+* test command ([a8c6f6f](https://github.com/AnthonyLzq/test-sms-providers/commit/a8c6f6fd02213118c45522b5b3cda17779d43ef1))
+
 ### [0.2.1](https://github.com/AnthonyLzq/test-sms-providers/compare/v0.2.0...v0.2.1) (2022-07-27)
 
 
