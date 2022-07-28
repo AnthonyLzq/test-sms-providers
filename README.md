@@ -43,3 +43,14 @@ To test MessageBird API locally you need to follow these steps:
 1. Register in their site
 2. Get your username and your API key
 3. Run the following in your terminal: `yarn test:clickSend`
+
+
+## [Vonage](https://www.vonage.com/communications-apis/)
+
+I can send messages using its API.
+
+To test Vonage API locally you need to follow these steps:
+
+1. Register in their site
+2. Get your your API key and your API secret
+3. Run the following in your terminal: `yarn test:vonage`

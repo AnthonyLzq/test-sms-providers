@@ -35,3 +35,6 @@ jobs:
 
           CLICK_SEND_USER_NAME: ${{ secrets.CLICK_SEND_USER_NAME }}
           CLICK_SEND_API_KEY: ${{ secrets.CLICK_SEND_API_KEY }}
+
+          VONAGE_API_KEY: ${{ secrets.VONAGE_API_KEY }}
+          VONAGE_API_SECRET: ${{ secrets.VONAGE_API_SECRET }}
