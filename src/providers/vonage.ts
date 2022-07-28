@@ -1,15 +1,13 @@
-import Vonage from '@vonage/server-sdk'
+const sendMessageV = async () => {
+  const { default: Vonage } = await import('@vonage/server-sdk')
+  const vonage = new Vonage({
+    apiKey: process.env.VONAGE_API_KEY as string,
+    apiSecret: process.env.VONAGE_API_SECRET as string
+  })
+  const from = 'Node.js'
+  const to = (process.env.PHONE_RECIPIENT as string).replace('+', '')
+  const text = 'A text message sent using te Vonage SMS API'
 
-const vonage = new Vonage({
-  apiKey: process.env.VONAGE_API_KEY as string,
-  apiSecret: process.env.VONAGE_API_SECRET as string
-})
-
-const from = 'Node.js'
-const to = (process.env.PHONE_RECIPIENT as string).replace('+', '')
-const text = 'A text message sent using te Vonage SMS API'
-
-const sendMessageV = () => {
   console.log('Sending message with Vonage')
 
   return new Promise<string>(resolve => {
@@ -36,4 +34,41 @@ const sendMessageV = () => {
   })
 }
 
-export { sendMessageV }
+const receiveMessageV = async () => {
+  const { default: express } = await import('express')
+  const app = express()
+
+  app.use(express.json())
+  app.use(express.urlencoded({ extended: true }))
+
+  const handleInboundSms = (
+    request: import('express').Request,
+    response: import('express').Response
+  ) => {
+    const params = Object.assign(request.query, request.body)
+
+    console.log(params)
+    response.status(204).send()
+  }
+
+  app
+    .route('/webhooks/inbound-sms')
+    .get(handleInboundSms)
+    .post(handleInboundSms)
+
+  const PORT = process.env.PORT || '3000'
+  let server: import('http').Server
+
+  return {
+    start: () => {
+      server = app.listen(process.env.PORT || 3000, () => {
+        console.log(`Server running at port ${PORT}`)
+      })
+    },
+    stop: () => {
+      server?.close()
+    }
+  }
+}
+
+export { sendMessageV, receiveMessageV }
