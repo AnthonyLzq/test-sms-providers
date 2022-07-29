@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.6.0](https://github.com/AnthonyLzq/test-sms-providers/compare/v0.5.0...v0.6.0) (2022-07-29)
+
+
+### Features
+
+* updated message bird test to avoid to be run in the ci ([0ca7c2e](https://github.com/AnthonyLzq/test-sms-providers/commit/0ca7c2ef7187f44e2b2a693f90eeedb2cfc5dafe))
+
+
+### Bug Fixes
+
+* click send body for sending sms ([ecb2b8a](https://github.com/AnthonyLzq/test-sms-providers/commit/ecb2b8adafb47f87b35859f342a0952ad9bfefc2))
+* click send test ci to avoid burn out free credits ([e9cf4ff](https://github.com/AnthonyLzq/test-sms-providers/commit/e9cf4ff5d3dc78b97b8e9e1caf83a9c884f2760b))
+
 ## [0.5.0](https://github.com/AnthonyLzq/test-sms-providers/compare/v0.4.1...v0.5.0) (2022-07-29)
 
 
