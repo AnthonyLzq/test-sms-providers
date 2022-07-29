@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.5.0](https://github.com/AnthonyLzq/test-sms-providers/compare/v0.4.1...v0.5.0) (2022-07-29)
+
+
+### Features
+
+* implemented vonage receive sms - status: IN PROGRESS ([d1a3e15](https://github.com/AnthonyLzq/test-sms-providers/commit/d1a3e156b061a5dcf6224365f472e2f54e74340e))
+* implemented vonage send sms - status: SUCCESS ([a95c977](https://github.com/AnthonyLzq/test-sms-providers/commit/a95c977d40d511301388c95384fbcbe0ccaa7dc0))
+* updated docker config ([7d14d3c](https://github.com/AnthonyLzq/test-sms-providers/commit/7d14d3c8395acfc7b3396769108671b2b917d6d0))
+* updated setEnvVars example in the README file ([d2b736b](https://github.com/AnthonyLzq/test-sms-providers/commit/d2b736bce6b1e0828419a4f10fa7d419fb9b951e))
+
 ### [0.4.1](https://github.com/AnthonyLzq/test-sms-providers/compare/v0.4.0...v0.4.1) (2022-07-27)
 
 
