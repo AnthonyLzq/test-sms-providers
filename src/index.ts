@@ -1,3 +1,3 @@
-import { sendMessageV } from './providers'
+import { sendMessageCS } from './providers'
 
-sendMessageV()
+sendMessageCS()
