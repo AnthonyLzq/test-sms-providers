@@ -15,7 +15,8 @@
     "test:local": "NODE_ENV=local jest --ci -i",
     "test:messageBird": "NODE_ENV=local jest ./test/messageBird.test.ts",
     "test:clickSend": "NODE_ENV=local jest ./test/clickSend.test.ts",
-    "test:vonage": "NODE_ENV=local jest ./test/vonage.test.ts"
+    "test:vonage": "NODE_ENV=local jest ./test/vonage.test.ts",
+    "test:telnyx": "NODE_ENV=local jest ./test/telnyx.test.ts"
   },
   "author": "AnthonyLzq <sluzquinosa@uni.pe>",
   "license": "MIT",

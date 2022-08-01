@@ -22,6 +22,10 @@ process.env.CLICK_SEND_API_KEY = 'CLICK_SEND_API_KEY'
 // Envs for Vonage
 process.env.VONAGE_API_KEY = 'VONAGE_API_KEY'
 process.env.VONAGE_API_SECRET = 'VONAGE_API_SECRET'
+
+// Envs for Telnyx
+process.env.TELNYX_API_KEY = 'TELNYX_API_KEY'
+process.env.TELNYX_PHONE_NUMBER = 'TELNYX_PHONE_NUMBER'
 ```
 
 Then run the following in your terminal: `yarn test:local`, that will run the unit test for every sms provider.
@@ -58,3 +62,13 @@ To test Vonage API locally you need to follow these steps:
 1. Register in their site
 2. Get your your API key and your API secret
 3. Run the following in your terminal: `yarn test:vonage`
+
+## [Telnyx](https://telnyx.com/)
+
+I can send messages using its API.
+
+To test Telnyx API locally you need to follow these steps:
+
+1. Register in their site
+2. Get your your API key and your API secret
+3. Run the following in your terminal: `yarn test:telnyx`
