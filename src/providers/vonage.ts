@@ -34,41 +34,21 @@ const sendMessageV = async () => {
   })
 }
 
-const receiveMessageV = async () => {
-  const { default: express } = await import('express')
-  const app = express()
-
-  app.use(express.json())
-  app.use(express.urlencoded({ extended: true }))
-
+const receiveMessageV = (
+  app: import('express').Express,
+  prefix = '/webhooks'
+) => {
   const handleInboundSms = (
     request: import('express').Request,
     response: import('express').Response
   ) => {
     const params = Object.assign(request.query, request.body)
 
-    console.log(params)
+    console.log('Vonage:', params)
     response.status(204).send()
   }
 
-  app
-    .route('/webhooks/inbound-sms')
-    .get(handleInboundSms)
-    .post(handleInboundSms)
-
-  const PORT = process.env.PORT || '3000'
-  let server: import('http').Server
-
-  return {
-    start: () => {
-      server = app.listen(process.env.PORT || 3000, () => {
-        console.log(`Server running at port ${PORT}`)
-      })
-    },
-    stop: () => {
-      server?.close()
-    }
-  }
+  app.route(`${prefix}/vonage`).get(handleInboundSms).post(handleInboundSms)
 }
 
 export { sendMessageV, receiveMessageV }
