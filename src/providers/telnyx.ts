@@ -33,4 +33,21 @@ const sendMessageT = async () => {
   }
 }
 
-export { sendMessageT }
+const receiveMessageT = (
+  app: import('express').Express,
+  prefix = '/webhooks'
+) => {
+  const handleInboundSms = (
+    request: import('express').Request,
+    response: import('express').Response
+  ) => {
+    const params = Object.assign(request.query, request.body)
+
+    console.log('Telnyx:', params)
+    response.status(204).send()
+  }
+
+  app.route(`${prefix}/telnyx`).get(handleInboundSms).post(handleInboundSms)
+}
+
+export { sendMessageT, receiveMessageT }
