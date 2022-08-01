@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.7.0](https://github.com/AnthonyLzq/test-sms-providers/compare/v0.6.0...v0.7.0) (2022-08-01)
+
+
+### Features
+
+* implemented telnyx send sms - status: SUCESS ([2474508](https://github.com/AnthonyLzq/test-sms-providers/commit/24745088bcc85d11d50dfdfb53a2a20494074e82))
+
 ## [0.6.0](https://github.com/AnthonyLzq/test-sms-providers/compare/v0.5.0...v0.6.0) (2022-07-29)
 
 
