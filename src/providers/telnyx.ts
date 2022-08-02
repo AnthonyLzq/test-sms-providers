@@ -20,7 +20,7 @@ const sendMessageT = async () => {
     const res = await axios.post(BASE_URL, body, headers)
 
     console.log('Message sent with Telnyx')
-    console.log('res', res)
+    console.log('res', res.data)
 
     return 'Success'
   } catch (error) {

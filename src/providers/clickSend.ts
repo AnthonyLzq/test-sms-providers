@@ -27,7 +27,7 @@ const sendMessageCS = async () => {
     const res = await axios.post(BASE_URL, body, headers)
 
     console.log('Message sent with ClickSend')
-    console.log(res, 'res')
+    console.log('res', res.data)
 
     return 'Success'
   } catch (error) {
