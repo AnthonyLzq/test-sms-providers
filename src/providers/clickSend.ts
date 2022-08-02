@@ -6,7 +6,7 @@ const sendMessageCS = async () => {
     const basic = `Basic ${Buffer.from(
       `${process.env.CLICK_SEND_USER_NAME}:${process.env.CLICK_SEND_API_KEY}`
     ).toString('base64')}`
-    const headers = {
+    const config = {
       headers: {
         'Content-Type': 'application/json',
         Authorization: basic
@@ -24,7 +24,7 @@ const sendMessageCS = async () => {
 
     console.log('Sending message with ClickSend')
 
-    const res = await axios.post(BASE_URL, body, headers)
+    const res = await axios.post(BASE_URL, body, config)
 
     console.log('Message sent with ClickSend')
     console.log('res', res.data)
