@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.9.0](https://github.com/AnthonyLzq/test-sms-providers/compare/v0.8.0...v0.9.0) (2022-08-02)
+
+
+### Features
+
+* implemented infobip sms - status: SUCCESS ([30caff2](https://github.com/AnthonyLzq/test-sms-providers/commit/30caff297f48f160e697aa5920e7b627dd0b36b6))
+
+
+### Bug Fixes
+
+* test names ([3563a4f](https://github.com/AnthonyLzq/test-sms-providers/commit/3563a4f4fff6205273c118306eab0e45feb5226d))
+
 ## [0.8.0](https://github.com/AnthonyLzq/test-sms-providers/compare/v0.7.0...v0.8.0) (2022-08-02)
 
 
