@@ -20,6 +20,7 @@ const sendMessageV = async () => {
 
       if (responseData.messages[0].status === '0') {
         console.log('Message sent with Vonage')
+        console.log('res', responseData.messages)
 
         return resolve('Success')
       }
