@@ -3,7 +3,7 @@ import axios, { AxiosError } from 'axios'
 const sendMessageT = async () => {
   try {
     const BASE_URL = 'https://api.telnyx.com/v2/messages'
-    const headers = {
+    const config = {
       headers: {
         'Content-Type': 'application/json',
         Authorization: `Bearer ${process.env.TELNYX_API_KEY}`
@@ -17,7 +17,7 @@ const sendMessageT = async () => {
 
     console.log('Sending message with Telnyx')
 
-    const res = await axios.post(BASE_URL, body, headers)
+    const res = await axios.post(BASE_URL, body, config)
 
     console.log('Message sent with Telnyx')
     console.log('res', res.data)

@@ -17,3 +17,6 @@ process.env.TELNYX_PHONE_NUMBER = 'TELNYX_PHONE_NUMBER'
 
 // Envs for Telnyx
 process.env.SMS77_API_KEY = 'SMS77_API_KEY'
+
+// Envs for Infobip
+process.env.INFOBIP_API_KEY = 'INFOBIP_API_KEY'
