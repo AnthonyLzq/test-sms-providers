@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.8.0](https://github.com/AnthonyLzq/test-sms-providers/compare/v0.7.0...v0.8.0) (2022-08-02)
+
+
+### Features
+
+* implemented sms77 sms - status: FAILED ([3629bc5](https://github.com/AnthonyLzq/test-sms-providers/commit/3629bc54ed4510db0c29e55e604ea03a65221518))
+* implemented telnyx receive sms - status: IN PROGRESS ([8e0496d](https://github.com/AnthonyLzq/test-sms-providers/commit/8e0496dee4bfceb7b1cd8d4e6e04f3d6393a324a))
+* improved logging ([cff2f3a](https://github.com/AnthonyLzq/test-sms-providers/commit/cff2f3aaa05235a2cc0a8b6d1466cd916cda7309))
+* reworked Dockerfile ([aa9ad5a](https://github.com/AnthonyLzq/test-sms-providers/commit/aa9ad5a15a1a81cc5a004f4d685db34799b5b0b7))
+
 ## [0.7.0](https://github.com/AnthonyLzq/test-sms-providers/compare/v0.6.0...v0.7.0) (2022-08-01)
 
 
