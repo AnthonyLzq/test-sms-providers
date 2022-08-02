@@ -1,3 +1,2 @@
-import { sendMessageClickSend } from './providers'
-
-sendMessageClickSend()
+export * from './providers'
+export * from './server'

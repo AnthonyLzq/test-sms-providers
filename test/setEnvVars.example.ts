@@ -20,3 +20,8 @@ process.env.SMS77_API_KEY = 'SMS77_API_KEY'
 
 // Envs for Infobip
 process.env.INFOBIP_API_KEY = 'INFOBIP_API_KEY'
+
+// Envs for Sinch
+process.env.SINCH_PLAN_ID = 'SINCH_PLAN_ID'
+process.env.SINCH_PHONE_NUMBER = 'SINCH_PHONE_NUMBER'
+process.env.SINCH_API_KEY = 'SINCH_API_KEY'

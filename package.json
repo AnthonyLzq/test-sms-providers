@@ -8,7 +8,7 @@
     "build": "webpack --mode production",
     "lint": "eslint src/* --ext .ts",
     "service": "nodemon",
-    "start": "ts-node src/servers",
+    "start": "ts-node src/server",
     "release": "standard-version",
     "test:ci": "jest --ci -i",
     "test:local": "NODE_ENV=local jest --ci -i",
@@ -17,7 +17,8 @@
     "test:vonage": "NODE_ENV=local jest ./test/vonage.test.ts",
     "test:telnyx": "NODE_ENV=local jest ./test/telnyx.test.ts",
     "test:sms77": "NODE_ENV=local jest ./test/sms77.test.ts",
-    "test:infobip": "NODE_ENV=local jest ./test/infobip.test.ts"
+    "test:infobip": "NODE_ENV=local jest ./test/infobip.test.ts",
+    "test:sinch": "NODE_ENV=local jest ./test/sinch.test.ts"
   },
   "author": "AnthonyLzq <sluzquinosa@uni.pe>",
   "license": "MIT",

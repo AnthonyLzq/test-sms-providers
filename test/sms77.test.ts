@@ -1,4 +1,4 @@
-import { sendMessageSms77 } from '../src/providers'
+import { sendMessageSms77 } from '../src'
 
 describe('Testing providers', () => {
   describe('sms77 sms', () => {

@@ -1,4 +1,4 @@
-import { sendMessageTelnyx } from '../src/providers'
+import { sendMessageTelnyx } from '../src'
 
 describe('Testing providers', () => {
   describe('Telnyx sms', () => {

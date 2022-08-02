@@ -32,6 +32,11 @@ process.env.SMS77_API_KEY = 'SMS77_API_KEY'
 
 // Envs for Infobip
 process.env.INFOBIP_API_KEY = 'INFOBIP_API_KEY'
+
+// Envs for Sinch
+process.env.SINCH_PLAN_ID = 'SINCH_PLAN_ID'
+process.env.SINCH_PHONE_NUMBER = 'SINCH_PHONE_NUMBER'
+process.env.SINCH_API_KEY = 'SINCH_API_KEY'
 ```
 
 Then run the following in your terminal: `yarn test:local`, that will run the unit test for every sms provider.
@@ -76,7 +81,7 @@ I can send messages using its API.
 To test Telnyx API locally you need to follow these steps:
 
 1. Register in their site
-2. Get your your API key and your API key
+2. Get your your API key
 3. Run the following in your terminal: `yarn test:telnyx`
 
 ## [sms77](https://www.sms77.io)
@@ -86,15 +91,25 @@ I couldn't send/receive any messages using its API.
 To test sms77 API locally you need to follow these steps:
 
 1. Register in their site
-2. Get your your API key and your API key
+2. Get your your API key
 3. Run the following in your terminal: `yarn test:sms77`
 
 ## [Infobip](https://www.infobip.com/)
 
-I couldn't send/receive any messages using its API.
+I can send messages using its API.
 
 To test Infobip API locally you need to follow these steps:
 
 1. Register in their site
-2. Get your your API key and your API key
+2. Get your your API key
 3. Run the following in your terminal: `yarn test:infobip`
+
+## [Sinch](https://www.infobip.com/)
+
+I can send messages using its API.
+
+To test Infobip API locally you need to follow these steps:
+
+1. Register in their site
+2. Get your your API key, your plan id and your phone number
+3. Run the following in your terminal: `yarn test:sinch`

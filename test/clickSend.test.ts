@@ -1,4 +1,4 @@
-import { sendMessageClickSend } from '../src/providers'
+import { sendMessageClickSend } from '../src'
 
 describe('Testing providers', () => {
   describe('ClickSend sms', () => {

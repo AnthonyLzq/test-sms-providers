@@ -1,4 +1,4 @@
-import { sendMessageMessageBird } from '../src/providers'
+import { sendMessageMessageBird } from '../src'
 
 describe('Testing providers', () => {
   describe('MessageBird sms', () => {
