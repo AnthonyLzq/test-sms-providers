@@ -26,6 +26,9 @@ process.env.VONAGE_API_SECRET = 'VONAGE_API_SECRET'
 // Envs for Telnyx
 process.env.TELNYX_API_KEY = 'TELNYX_API_KEY'
 process.env.TELNYX_PHONE_NUMBER = 'TELNYX_PHONE_NUMBER'
+
+// Envs for Telnyx
+process.env.SMS77_API_KEY = 'SMS77_API_KEY'
 ```
 
 Then run the following in your terminal: `yarn test:local`, that will run the unit test for every sms provider.
@@ -70,5 +73,15 @@ I can send messages using its API.
 To test Telnyx API locally you need to follow these steps:
 
 1. Register in their site
-2. Get your your API key and your API secret
+2. Get your your API key and your API key
 3. Run the following in your terminal: `yarn test:telnyx`
+
+## [sms77](https://www.sms77.io)
+
+I couldn't send/receive any messages using its API.
+
+To test sms77 API locally you need to follow these steps:
+
+1. Register in their site
+2. Get your your API key and your API key
+3. Run the following in your terminal: `yarn test:sms77`
