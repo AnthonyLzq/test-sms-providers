@@ -1,6 +1,6 @@
 import axios, { AxiosError } from 'axios'
 
-const sendMessageT = async () => {
+const sendMessageTelnyx = async () => {
   try {
     const BASE_URL = 'https://api.telnyx.com/v2/messages'
     const config = {
@@ -33,7 +33,7 @@ const sendMessageT = async () => {
   }
 }
 
-const receiveMessageT = (
+const receiveMessageTelnyx = (
   app: import('express').Express,
   prefix = '/webhooks'
 ) => {
@@ -50,4 +50,4 @@ const receiveMessageT = (
   app.route(`${prefix}/telnyx`).get(handleInboundSms).post(handleInboundSms)
 }
 
-export { sendMessageT, receiveMessageT }
+export { sendMessageTelnyx, receiveMessageTelnyx }

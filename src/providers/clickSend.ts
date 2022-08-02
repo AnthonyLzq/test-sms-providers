@@ -1,6 +1,6 @@
 import axios, { AxiosError } from 'axios'
 
-const sendMessageCS = async () => {
+const sendMessageClickSend = async () => {
   try {
     const BASE_URL = 'https://rest.clicksend.com/v3/sms/send'
     const basic = `Basic ${Buffer.from(
@@ -40,4 +40,4 @@ const sendMessageCS = async () => {
   }
 }
 
-export { sendMessageCS }
+export { sendMessageClickSend }

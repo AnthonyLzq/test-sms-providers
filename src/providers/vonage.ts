@@ -1,4 +1,4 @@
-const sendMessageV = async () => {
+const sendMessageVonage = async () => {
   const { default: Vonage } = await import('@vonage/server-sdk')
   const vonage = new Vonage({
     apiKey: process.env.VONAGE_API_KEY as string,
@@ -35,7 +35,7 @@ const sendMessageV = async () => {
   })
 }
 
-const receiveMessageV = (
+const receiveMessageVonage = (
   app: import('express').Express,
   prefix = '/webhooks'
 ) => {
@@ -52,4 +52,4 @@ const receiveMessageV = (
   app.route(`${prefix}/vonage`).get(handleInboundSms).post(handleInboundSms)
 }
 
-export { sendMessageV, receiveMessageV }
+export { sendMessageVonage, receiveMessageVonage }

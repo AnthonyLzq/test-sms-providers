@@ -1,3 +1,3 @@
-import { sendMessageCS } from './providers'
+import { sendMessageClickSend } from './providers'
 
-sendMessageCS()
+sendMessageClickSend()

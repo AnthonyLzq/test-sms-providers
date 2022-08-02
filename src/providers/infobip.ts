@@ -1,6 +1,6 @@
 import axios, { AxiosError } from 'axios'
 
-const sendMessageI = async () => {
+const sendMessageInfobip = async () => {
   try {
     const BASE_URL = 'https://89nlre.api.infobip.com/sms/2/text/advanced'
     const config = {
@@ -42,4 +42,4 @@ const sendMessageI = async () => {
   }
 }
 
-export { sendMessageI }
+export { sendMessageInfobip }

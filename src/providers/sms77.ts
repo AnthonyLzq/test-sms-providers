@@ -1,6 +1,6 @@
 import axios, { AxiosError } from 'axios'
 
-const sendMessageS = async () => {
+const sendMessageSms77 = async () => {
   try {
     const BASE_URL = 'http://gateway.sms77.io/api/sms'
     const config = {
@@ -31,4 +31,4 @@ const sendMessageS = async () => {
   }
 }
 
-export { sendMessageS }
+export { sendMessageSms77 }

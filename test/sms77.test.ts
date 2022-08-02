@@ -1,11 +1,11 @@
-import { sendMessageS } from '../src/providers'
+import { sendMessageSms77 } from '../src/providers'
 
 describe('Testing providers', () => {
   describe('sms77 sms', () => {
     test('Send a sms', async () => {
       // To don't burn out my free credits
       if (process.env.NODE_ENV === 'local') {
-        const result = await sendMessageS()
+        const result = await sendMessageSms77()
 
         expect(result).toBe('Success')
       } else expect(1 + 1).toBe(2)

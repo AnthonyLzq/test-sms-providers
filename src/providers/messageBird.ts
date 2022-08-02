@@ -7,7 +7,7 @@ const params = {
   body: 'This is a test message'
 }
 
-const sendMessageMB = () => {
+const sendMessageMessageBird = () => {
   console.log('Sending message with MessageBird')
 
   return new Promise<string>(resolve => {
@@ -29,4 +29,4 @@ const sendMessageMB = () => {
   })
 }
 
-export { sendMessageMB }
+export { sendMessageMessageBird }
