@@ -14,3 +14,6 @@ process.env.VONAGE_API_SECRET = 'VONAGE_API_SECRET'
 // Envs for Telnyx
 process.env.TELNYX_API_KEY = 'TELNYX_API_KEY'
 process.env.TELNYX_PHONE_NUMBER = 'TELNYX_PHONE_NUMBER'
+
+// Envs for Telnyx
+process.env.SMS77_API_KEY = 'SMS77_API_KEY'
