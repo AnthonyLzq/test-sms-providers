@@ -1,7 +1,7 @@
 import { sendMessageT } from '../src/providers'
 
 describe('Testing providers', () => {
-  describe('ClickSend sms', () => {
+  describe('Telnyx sms', () => {
     test('Send a sms', async () => {
       // To don't burn out my free credits
       if (process.env.NODE_ENV === 'local') {
