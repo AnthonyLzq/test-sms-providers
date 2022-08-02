@@ -2,6 +2,42 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 0.10.0 (2022-08-02)
+
+
+### Features
+
+* added badges to readme ([941113a](https://github.com/AnthonyLzq/test-sms-providers/commit/941113aaa9c3655161067d4f4a78853acd51cb16))
+* feat: implemented click send sms - status: FAILED ([805db0a](https://github.com/AnthonyLzq/test-sms-providers/commit/805db0afee43e0b11bf5acf58a34e35aa9478623))
+* implemented infobip sms - status: SUCCESS ([09dc220](https://github.com/AnthonyLzq/test-sms-providers/commit/09dc220f8ead4fadbdddc0186828c83ed1e9782c))
+* implemented message bird sms - status: FAILED ([88e4b88](https://github.com/AnthonyLzq/test-sms-providers/commit/88e4b88bdad751c4b70c8a174f6e600aa30c236a))
+* implemented sinch sms - status: SUCCESS ([18baad1](https://github.com/AnthonyLzq/test-sms-providers/commit/18baad1cb92722fcbdf99cd1e858549862c4cfbe))
+* implemented sms77 sms - status: FAILED ([cbfb6b5](https://github.com/AnthonyLzq/test-sms-providers/commit/cbfb6b52c8cf7f891c029cf9ec414f1ce06d1897))
+* implemented telnyx receive sms - status: IN PROGRESS ([f55744f](https://github.com/AnthonyLzq/test-sms-providers/commit/f55744fe89de07dd02331c643998f8e38a32248f))
+* implemented telnyx send sms - status: SUCESS ([e644b31](https://github.com/AnthonyLzq/test-sms-providers/commit/e644b316c495086cab5f1fc75bd42bee7eda6600))
+* implemented vonage receive sms - status: IN PROGRESS ([a7d347c](https://github.com/AnthonyLzq/test-sms-providers/commit/a7d347c10dcfb2d3285706bf6ad5f9be5aae46ee))
+* implemented vonage send sms - status: SUCCESS ([aaef51f](https://github.com/AnthonyLzq/test-sms-providers/commit/aaef51f997cdb5479e826c09ad36470cf120bb69))
+* improved functions names ([3e76f39](https://github.com/AnthonyLzq/test-sms-providers/commit/3e76f39e4e6a0690b11ce399445e51ef6469afab))
+* improved logging ([90e6efb](https://github.com/AnthonyLzq/test-sms-providers/commit/90e6efbfc69acfafb3b7c4c78cb0557236fe3038))
+* reworked Dockerfile ([750a1ce](https://github.com/AnthonyLzq/test-sms-providers/commit/750a1ce4c099eabe886843eb007c3fc221e2ef23))
+* updated docker config ([ccbe058](https://github.com/AnthonyLzq/test-sms-providers/commit/ccbe058f53bacaea0c5f8d8cbd4a2fee31e41706))
+* updated docs and implemented separated files for testing each site ([54fb221](https://github.com/AnthonyLzq/test-sms-providers/commit/54fb221635d9823ebf9804bb44c5713038d005ed))
+* updated gha tests env ([fbae6de](https://github.com/AnthonyLzq/test-sms-providers/commit/fbae6dea16d4be6a97a09cba5fa91ef45c34f64e))
+* updated message bird test to avoid to be run in the ci ([850f8ec](https://github.com/AnthonyLzq/test-sms-providers/commit/850f8ecd62d2790f9d63b287330ae002a41035de))
+* updated setEnvVars example in the README file ([4118ce9](https://github.com/AnthonyLzq/test-sms-providers/commit/4118ce902e5a8538cd9853790ac78b0d38200823))
+
+
+### Bug Fixes
+
+* click send body for sending sms ([b2ef802](https://github.com/AnthonyLzq/test-sms-providers/commit/b2ef802acc64de20b2ef54bbab47ab4ac876965c))
+* click send test ci to avoid burn out free credits ([55b9f44](https://github.com/AnthonyLzq/test-sms-providers/commit/55b9f44b989885ae91ce2d692e9d8f7853f8f5d5))
+* envs for click send gha ([dc6402e](https://github.com/AnthonyLzq/test-sms-providers/commit/dc6402e33245c4b0c2206a70ed4f3f5519cfa8e3))
+* export for server from index file ([47ee332](https://github.com/AnthonyLzq/test-sms-providers/commit/47ee332497e0696a8cfa33dc17bc133c6a64d413))
+* gha names ([7e6f594](https://github.com/AnthonyLzq/test-sms-providers/commit/7e6f5942257b5cfae721001fc68a5b071b38fd31))
+* recovered .env.example without secrets ([1718abe](https://github.com/AnthonyLzq/test-sms-providers/commit/1718abefb5e80b0db97c28c061754ad673b61ba5))
+* test command ([4db2d18](https://github.com/AnthonyLzq/test-sms-providers/commit/4db2d185509f763287ae1da13fa186aee6f6b483))
+* test names ([fb67209](https://github.com/AnthonyLzq/test-sms-providers/commit/fb67209d242cc654400861a0f0313cd150dd85ac))
+
 ## [0.9.0](https://github.com/AnthonyLzq/test-sms-providers/compare/v0.8.0...v0.9.0) (2022-08-02)
 
 
